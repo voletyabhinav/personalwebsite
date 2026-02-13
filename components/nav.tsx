@@ -26,7 +26,7 @@ export function Nav() {
           className="flex h-8 w-8 flex-shrink-0 items-center justify-center overflow-hidden rounded-full bg-transparent transition-opacity hover:opacity-80 sm:h-9 sm:w-9"
           aria-label="Home"
         >
-          <span className="flex h-8 w-8 flex-shrink-0 overflow-hidden rounded-full sm:h-9 sm:w-9">
+          <span className="animate-home-icon flex h-8 w-8 flex-shrink-0 overflow-hidden rounded-full sm:h-9 sm:w-9">
             <Image
               src="/home-icon.png"
               alt=""

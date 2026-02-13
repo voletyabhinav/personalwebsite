@@ -44,3 +44,16 @@
     @apply bg-background text-foreground font-sans font-bold antialiased;
   }
 }
+
+@keyframes home-icon-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-home-icon {
+  animation: home-icon-spin 3s linear infinite;
+}
