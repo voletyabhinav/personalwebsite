@@ -9,15 +9,6 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      keyframes: {
-        "spin-clockwise": {
-          from: { transform: "rotate(0deg)" },
-          to: { transform: "rotate(360deg)" },
-        },
-      },
-      animation: {
-        "spin-slow": "spin-clockwise 3s linear infinite",
-      },
       fontFamily: {
         sans: ['"Helvetica Neue"', "Helvetica", "Arial", "sans-serif"],
         garamond: ['"Apple Garamond"', "Garamond", "Times New Roman", "serif"],
